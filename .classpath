@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/androidTest/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/r/androidTest/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="app/src/main/java"/>
+	<classpathentry kind="lib" path="app/build/generated/mockable-android-19.v3.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/transforms/mergeJavaRes/debug/0.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="app/build/intermediates/classes/debug"/>
+</classpath>

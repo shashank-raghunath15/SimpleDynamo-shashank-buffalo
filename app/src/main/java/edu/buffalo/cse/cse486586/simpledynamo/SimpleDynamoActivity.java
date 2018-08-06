@@ -1,11 +1,17 @@
 package edu.buffalo.cse.cse486586.simpledynamo;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.app.Activity;
+import android.telephony.TelephonyManager;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.Menu;
 import android.widget.TextView;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Formatter;
 
 public class SimpleDynamoActivity extends Activity {
 
@@ -29,5 +35,4 @@ public class SimpleDynamoActivity extends Activity {
         super.onStop();
 	    Log.v("Test", "onStop()");
 	}
-
 }
